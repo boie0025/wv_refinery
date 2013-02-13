@@ -2,10 +2,6 @@
   - @page.parts.each do |part|
     %div{:class => "span#{part.span}"}
       =part.body.html_safe
-  
-
-
-
 
 - if false
   - render_content_page(@page, {:hide_sections => local_assigns[:hide_sections],:can_use_fallback => !local_assigns[:show_empty_sections] && !local_assigns[:remove_automatic_sections]})

@@ -1,35 +1,7 @@
 @import "bootstrap";
 @import "bootstrap-responsive";
 
-body {
-  margin: 0px;
-}
-#body_content.no_body_content_left #body_content_right,
-  #body_content.no_body_content_right #body_content_left {
-  width: 100%;
-  padding-left: 0px;
-  padding-right: 0px;
-}
-.menu {
-  ul {
-    margin: 0px;
-    padding: 0px;
-  }
-  li {
-    padding: 0px;
-    margin: 0px 9px 0px 0px;
-    list-style: none;
-    float: left;
-    &.last {
-      margin-right: 0px;
-    }
-    &.selected {
-      > a {
-        font-weight: bold;
-      }
-    }
-  }
-}
+
 .page_not_live {
   border: 1px solid #A00027;
   color: #A00027;
